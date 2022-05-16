@@ -3,7 +3,21 @@
 // }
 
 const Header = () => {
-  return <div>ggggg</div>;
+  return (
+    <header
+      style={{
+        background: "yellow",
+        color: "red",
+        fontSize: 20,
+        height: 200,
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+      }}
+    >
+      헤더 컴포넌트
+    </header>
+  );
 };
 
 export default Header;
